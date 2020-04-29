@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tokyoshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap:400,400i,700,700i&subset=latin-ext">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text:400,400i,700,700i&subset=latin-ext,vietnamese">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&subset=vietnamese">
+</head>
+<body class="page">
+    <header class="top-intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="logo col-sm-3">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="col-sm-9">
+                    <nav class="intro-menu">
+                        <ul>
+                            <li class="social-top"><a href="#"><img src="images/facebook-logo-button3.png" alt="" style="width: 26px;"></a></li>
+                            <li class="social-top"><a href="#"><img src="images/twitter-logo-button32.png" style="width: 26px;" alt=""></a></li>
+                            <li class="social-top"><a href="#"><img src="images/instagram-logo32.png" style="width: 26px;" alt=""></a></li>
+                            <li class="social-top"><a href="#"><img src="images/google-plus-logo-button.png" style="width: 26px;" alt=""></a></li>
+
+                            <li class="intro-menu-login"><a href="#">Đăng nhập</a></li>
+                            <li class="intro-menu-login"><a href="#">Đăng ký</a></li>
+
+                            <li class="intro-menu-search">
+                                <form action="/search" class="nav-search">
+                                <input type="text" id="search" placeholder="Tìm kiếm" >
+                                </form>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="top-main-menu">
+        <div class="container">
+            <nav class="standard-menu border">
+                <ul class="menu-ul clearfix">
+                    <li class="menu-ul-li"><a href="#">Trang chủ</a></li>
+                    <li class="menu-ul-li"><a href="#">Giới thiệu</a></li>
+                    <li class="menu-ul-li"><a href="#">Sản phẩm</a>
+                        <ul>
+                            <li><a href="#">Trà cụ</a></li>
+                            <li><a href="#">Trà Nhật Bản</a></li>
+                            <li><a href="#">Trà Việt Nam</a></li>
+                            <li><a href="#">Trà Anh Quốc</a></li>
+                            <li><a href="#">Trà Trung Quốc</a></li>
+                            <li><a href="#">Sản phẩm nổi bật</a></li>
+                            <li><a href="#">Sản phẩm bán chạy</a></li>
+                            <li><a href="#">Sản phẩm khuyến mãi</a></li>
+                        </ul>
+                    </li>    
+                    <li class="menu-ul-li"><a href="#">Blog</a></li>
+                    <li class="menu-ul-li"><a href="#">Lien he</a></li>
+                    <li class="shopping-cart">
+                        <a href="#" class="hover-color"><i class="fa fa-shopping-cart"></i> Giỏ hàng (0)</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <style>
+        /* #carousel-home .fa-angle-right {right: 0;}
+        #carousel-home .fa-angle-left {left: 0;} */
+    </style>
+    <div id="carousel-home" class="taberna-top-slider carousel slide" data-ride="carouse">
+        <a href="#"><img src="images/slideshow_1.jpg" alt=""></a>
+    </div>
+    <section class="collections-three lowercase clearfix">
+        <div class="collection-wrap">
+            <div class="col-sm-6">
+                <div class="collection-textarea">
+                    <h2>Nghi thuc tra dao </h2>
+                    <p>Nghi thuc tra dao (Cha no Yu ) chinh la nghi thuc pha tra, thuc hien tu buoc pha tra voi bo tra cu truoc mat cac vi khach trong gian phong goi la tra that (Chashitsu). Nhung buoc pha tra duoc goi la temae. Nghe co ve don gian nhung thuc su an chua nhieu y nghia sau xa</p>
+                </div>
+            </div>
+            <div class="col-sm-push-1 col-sm-5">
+                <div class="collection-inner">
+                    <a href="#"><img src="images/home_banner_1.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured-links">
+        <div class="featured">
+            <div class="featured-first">
+                <div class="featured-first-image">
+                    <img src="images/display_featured_link_img_1.jpg" alt="">
+                </div>
+                <div class="featured-first-text">
+                    <a href="#" class="link-title">Tra</a>
+                    <p class="text-description">Trà  lá: chỉ lấy nước tinh chất từ lá trà. Lá trà được phơi khô, pha chế trong bình...</p>
+                    <button type="button" class="btn btn-collection btn-lg">
+                        <a href="#" class="button-link">Xem tiep</a>
+                    </button>
+                </div>
+                <div class="featured-first-image">
+                    <img src="images/display_featured_link_img_2.jpg" alt="">
+                </div>
+                <div class="featured-first-text">
+                    <a href="#" class="link-title">Tra Cu</a>
+                    <p class="text-description">Trà cụ là dụng cụ dùng để pha trà với nhiều mẫu mã , kiểu dáng  cách điệu khác...</p>
+                    <button type="button" class="btn btn-collection btn-lg">
+                        <a href="#" class="button-link">Xem tiep</a>
+                    </button>
+                </div>
+            </div>
+            <div class="featured-second">
+                <div class="featured-second-div">
+                    <div class="featured-second-image">
+                        <img src="images/display_featured_link_img_3.jpg" alt="">
+                    </div>
+                    <div class="featured-second-text">
+                        <a href="#" class="link-title">Giam gia</a>
+                    <p class="text-description">Với nhiều ưu đãi hấp dẫn Green Tea luôn mang đến cho người yêu trà có cơ hội thưởng thức...</p>
+                    <button type="button" class="btn btn-collection btn-lg">
+                        <a href="#" class="button-link">Xem tiep</a>
+                    </button>
+                    </div>
+                </div>
+                <div class="featured-second-div">
+                    <div class="featured-second-image">
+                        <img src="images/display_featured_link_img_4.jpg" alt="">
+                    </div>
+                    <div class="featured-second-text">
+                        <a href="#" class="link-title">Giới Thiệu</a>
+                    <p class="text-description">Đã bao lâu bạn không uống trà, thưởng thức trà theo đúng cách ??? 
+                        GreenTea sẽ đưa bạn vào không...</p>
+                    <button type="button" class="btn btn-collection btn-lg">
+                        <a href="#" class="button-link">Xem tiep</a>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h3 class="about-des"><em>"Nếu người đàn ông không uống trà, anh ấy không thể cảm nhận được sự thật và cái đẹp."</em></h3>
+            <div class="about-title">~ Japanese Proverb</div>
+        </div>
+    </section>
+    <section class="taberna-shop">
+        <div class="container taberna-shop-container">
+            <div class="row">
+                <h2 class="section-title">San pham ban chay</h2>
+                <div class="shop-variant-two clearfix">
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Trà Ướp Hoa Ngọc Lan">
+                            <img src="images/tramoccau.jpg" alt="">
+                        </a>
+                        <a href="#" title="Trà Ướp Hoa Ngọc Lan">
+                            <span class="title">Trà Ướp Hoa Ngọc Lan</span>
+                        </a>
+                        <a href="#"><span class="price"><i><b>Liên hệ</b></i></span></a>
+                    </div>
+                    
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Trà Ướp Hoa Sói">
+                            <img src="images/upload_e586329bedc846f49a57492169fcbcc2_grande.jpg" alt="">
+                        </a>
+                        <a href="#" title="Trà Ướp Hoa Sói">
+                            <span class="title">Trà Ướp Hoa Sói</span>
+                        </a>
+                        <span class="price"><i><b>Giá </b></i>235,000₫</span>
+                    </div>
+
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Bộ Trà Sứ Trắng">
+                            <img src="images/upload_a996f24a9b744358b9cf47ef18ddc0d2.jpg" alt="">
+                        </a>
+                        <a href="#" title="Bộ Trà Sứ Trắng">
+                            <span class="title">Bộ Trà Sứ Trắng</span>
+                        </a>
+                        <a href="#"><span class="price"><i><b>Liên hệ</b></i></span></a>
+                    </div>
+
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Trà No1 Anh Quốc Bầu Dục 100g">
+                            <img src="images/upload_c36c99248bfa41538fae6bfaef485d89_grande.webp" alt="">
+                        </a>
+                        <a href="#" title="Trà No1 Anh Quốc Bầu Dục 100g">
+                            <span class="title">Trà No1 Anh Quốc Bầu Dục 100g</span>
+                        </a>
+                        <span class="price"><i><b>Giá </b></i>165,000₫</span>
+                    </div>
+
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Trà Búp - Mecha">
+                            <img src="images/upload_f894b8bfcc344191be391f9a089658ff_grande.webp" alt="">
+                        </a>
+                        <a href="#" title="Trà Búp - Mecha">
+                            <span class="title">Trà Búp - Mecha</span>
+                        </a>
+                        <a href="#"><span class="price"><i><b>Liên hệ</b></i></span></a>
+                    </div>
+
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Trà Móc Câu">
+                            <img src="images/moccau.jpg" alt="">
+                        </a>
+                        <a href="#" title="Trà Móc Câu">
+                            <span class="title">Trà Móc Câu</span>
+                        </a>
+                        <a href="#"><span class="price"><i><b>Liên hệ</b></i></span></a>
+                    </div>
+
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Hủ Đựng Trà Hoa Sen_Eilong">
+                            <img src="images/upload_a1c069c0d71144f28a7bc2b029ba763e_grande.jpg" alt="">
+                        </a>
+                        <a href="#" title="Hủ Đựng Trà Hoa Sen_Eilong">
+                            <span class="title">Hủ Đựng Trà Hoa Sen_Eilong</span>
+                        </a>
+                        <a href="#"><span class="price"><i><b>Liên hệ</b></i></span></a>
+                    </div>
+
+                    <div class="taberna-product col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                        <a href="#" class="taberna-product-img" title="Bộ Ấm Trà Song Ấm Quai Gỗ">
+                            <img src="images/upload_7701c618e7854c7c984c4d6ba04fbb66_grande.jpg" alt="">
+                        </a>
+                        <a href="#" title="Bộ Ấm Trà Song Ấm Quai Gỗ">
+                            <span class="title">Bộ Ấm Trà Song Ấm Quai Gỗ</span>
+                        </a>
+                        <a href="#"><span class="price"><i><b>Liên hệ</b></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="middle-banner";">
+        <div class="col-md-6 col-md-offset-6 middle-banner-title">
+            <p class="headline">Trà Việt Nam Chất Lượng</p>
+            <button type="button" class="btn btn-collection btn-lg">
+                <a href="#" class="button-link">Xem tiếp</a>
+            </button>
+        </div>
+    </div>
+    <section class="social-feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="social-feedback-title">Khách Hàng Nói Về Chúng Tôi</h4>
+                    <p class="feedback-des">Web này tiện lợi ghê !! có đầy đủ nhiều loại trà vừa thơm lại vừa tốt cho sức khỏe. Dụng cụ trà lại đầy đủ. Mua hàng lại được hướng dẫn đầy đủ về cách pha trà như cách thưởng thức.....Cảm ơn TokyoShop nhé!</p>
+                    <p class="feedback-title"><strong>- Cao Trọng Tấn</strong></p>
+                    <p class="feedback-des">Trà ở đây thơm quá <3 Hôm qua mình đi uống thử 1 lần mà nghiện luôn. Chịu khó dẫn bạn qua đó thưởng thức mới được.</p>
+                    <p class="feedback-title"><strong>- Nguyễn Thanh Mai</strong></p>    
+                    <p class="feedback-des">Mấy bạn pha trà khéo ghê. Cách pha cũng hay nữa. Phải chịu khó qua đó để học cách pha mới được. :)))</p>
+                    <p class="feedback-title"><strong>- Khánh Linh</strong></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="iframe-video">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/7DK-3OSdhIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-blog">
+        <div class="container">
+            <div class="main-blog">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box-heading">
+                            <h2>Tin Tức Mới</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 main-article">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 main-article-home">
+                                <a href="#" class="article-image">
+                                    <img src="images/chidanhuongvi.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <h5 class="article-title">
+                                    <a href="#">Chỉ dẫn hương vị</a>
+                                </h5>
+                                <p><span class="article-info">21/11/2016 - Đăng bởi Mr Hà</span></p>
+                                <p><span class="article-description"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 main-article">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 main-article-home">
+                                <a href="#" class="article-image">
+                                    <img src="images/7038938-orig.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <h5 class="article-title">
+                                    <a href="#">Cách pha trà</a>
+                                </h5>
+                                <p><span class="article-info">21/11/2016 - Đăng bởi Mr Hà</span></p>
+                                <p><span class="article-description"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 main-article">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 main-article-home">
+                                <a href="#" class="article-image">
+                                    <img src="images/blog1.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <h5 class="article-title">
+                                    <a href="#">Người Việt uống trà hay thưởng trà</a>
+                                </h5>
+                                <p><span class="article-info">29/05/2015 - Đăng bởi Mr Hà</span></p>
+                                <p><span class="article-description"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="taberna-clients">
+        <div class="box-heading">
+            <h2>Album Ảnh</h2>
+        </div>
+        <div class="clients-r">
+            <div class="div-ground"><a href="#" class="grouped_elements" rel="group1"><img src="images/client1.png" alt=""></a></div>
+            <div class="div-ground"><a href="#" class="grouped_elements" rel="group1"><img src="images/client2.png" alt=""></a></div>
+            <div class="div-ground"><a href="#" class="grouped_elements" rel="group1"><img src="images/client3.png" alt=""></a></div>
+            <div class="div-ground"><a href="#" class="grouped_elements" rel="group1"><img src="images/client4.png" alt=""></a></div>
+            <div class="div-ground"><a href="#" class="grouped_elements" rel="group1"><img src="images/client5.png" alt=""></a></div>
+        </div>
+    </section>
+    <footer class="bottom-footer">
+        <div class="container">
+            <div class="main-footer row">
+                <div class="col-lg-4 col-md-4">
+                    <h6 class="title-news">THEO DÕI BẢN TIN</h6>
+                    <div class="newsletter">
+                        <form action="/contact" class="contact-form">
+                            <input type="hidden" value="contact">
+                            <input type="hidden" value='✓'>
+                            <input type="text" id="name" type="text" class="form-control hidden">
+                            <input type="text" class="form-control hidden" placeholder="Phone number">
+                            <textarea name="" id="message" style="height: 120px;" rows="7" class="form-control hidden">Subcribe Email</textarea>
+                            <div class="input-group" id="mail-box">
+                                <input type="email" class="input-mail" id="email" placeholder="Nhập Email">
+                                <input type="submit" class="bgcolor-hover border-hover btn btn-warning btn-submit subcribe">
+                            </div>
+                        </form>
+                    </div>
+                    <p class="newsletter-note">Nhận được thông tin mới nhất từ website</p>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <div class="col-xs-12 col-sm-6 col-md-5 clearfix">
+                        <div class="widget-wrap">
+                            <h6 class="title-news">Liên hệ</h6>
+                            <ul class="widget-ul">
+                                <li class="clearfix">
+                                    <i class="fa fa-home border"></i>
+                                    <p class="text">Phòng 214, Chung cư B3, Phường Quan Hoa, Cầu Giấy, Hà Nội</p>
+                                </li>
+                                <li class="clearfix">
+                                    <i class="fa fa-mobile border"></i>
+                                    <p class="text">0902068068</p>
+                                </li>
+                                <li class="clearfix">
+                                    <i class="fa fa-envelope border"></i>
+                                    <p class="text">songvangvietnam@gmail.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 clearfix">
+                        <div class="widget-wrap">
+                            <h6 class="title-news">Hỗ trợ</h6>
+                            <ul class="widget-ul links">
+                                <li class="clearfix">
+                                    <i class="fa fa-angle-right"></i>
+                                    <a href="#">Tìm kiếm</a>
+                                </li>
+                                <li class="clearfix">
+                                    <i class="fa fa-angle-right"></i>
+                                    <a href="#">Giới thiệu</a>
+                                </li>
+                                <li class="clearfix">
+                                    <i class="fa fa-angle-right"></i>
+                                    <a href="#">Hướng dẫn</a>
+                                </li>
+                                <li class="clearfix">
+                                    <i class="fa fa-angle-right"></i>
+                                    <a href="#">Chính sách</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 clearfix">
+                        <h6 class="title-news">Kết nối với chúng tôi</h6>
+                        <li class="social-top"><a href="#"><img src="images/facebook-logo-button3.png" alt=""></a></li>
+                        <li class="social-top"><a href="#"><img src="images/twitter-logo-button32.png" alt=""></a></li>
+                        <li class="social-top"><a href="#"><img src="images/instagram-logo32.png" alt=""></a></li>
+                        <li class="social-top"><a href="#"><img src="images/google-plus-logo-button.png" alt=""></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="info-footer">
+        <div class="container">
+            <div class="col-md-12 footer-line">
+                <hr />
+            </div>
+            <div class="infor-footer">
+                <div class="col-md-4 col-sm-4">
+                    <p>© 2016 Tokyoshop.</p>
+                </div>
+                <div class="col-md-8 bottom-footer-right">
+                    <p>Bản quyền thuộc về Gold River Theme | Cung cấp bởi Bizweb</p>
+                    <ul>
+                        <li>
+                            <i class="fa fa-2x fa-cc-visa" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-2x fa-cc-mastercard" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-2x fa-cc-amex" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-2x fa-cc-paypal" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-2x fa-cc-diners-club" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-2x fa-cc-discover" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

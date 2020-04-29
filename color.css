@@ -1,0 +1,79 @@
+.taberna-btn.bg-color,
+.slick-active .dot,
+.bg-color,
+div.text-content.bg-color,
+.bgcolor-hover:hover,
+a.bgcolor-hover:hover,
+
+.ui-slider-horizontal .ui-slider-range {
+  background-color: none;
+}
+.border ul ul {
+  border-top: 2px solid #f09c05;
+}
+.border-color,
+.nav > li.active > a,
+.btn-group .u-url:hover.border-hover:hover,
+.border-hover:hover,
+input.input-focus:focus,
+.u-url:hover.border-hover:hover,
+.fa:hover.border-hover:hover,
+.tags .u-url:hover.bgcolor-hover:hover {
+  border-color: #7ba740;
+}
+.taberna-color,
+a.taberna-color,
+.table .taberna-color,
+.p-rating .taberna-color,
+.hover-color:hover,
+.standard-menu ul ul a:hover {
+  color: #f09c05;
+}
+.slick-active .dot,
+.box-shadow {
+  box-shadow: 0 0 0 1px #eb1e49;
+}
+a:hover,
+a:focus {
+  color: #867465;
+}
+a {
+  color: #867465;
+}
+/* Colors or Background Colors Featured Products */
+.turquoise {
+  background-color: #36d6f6;
+}
+.gray {
+  background-color: #f6f3f3;
+}
+.green {
+  background-color: #99d43d;
+}
+.gray-2 {
+  background-color: #fefaf5;
+}
+.black {
+  background-color: #292421;
+}
+.light-blue {
+  background-color: #33a1de;
+}
+.red {
+  background-color: #c82536;
+}
+.yellow {
+  background-color: #ffd700;
+}
+.rating .fa.fa-star.yellow-2 {
+  color: #f9d621;
+}
+.claret-red {
+  background-color: #800000;
+}
+.orange {
+  background-color: #ea9b3e;
+}
+.purple {
+  background-color: #b181e2;
+}
